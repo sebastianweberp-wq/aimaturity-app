@@ -1,0 +1,8 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+startCommand = "dotnet AiMaturityApp.dll"
+healthcheckPath = "/health"
+restartPolicyType = "on_failure"

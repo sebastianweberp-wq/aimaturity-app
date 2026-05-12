@@ -1,0 +1,16 @@
+# Build output
+bin/
+obj/
+publish/
+
+# Word / Office docs (not needed in the repo)
+*.docx
+*.pdf
+
+# VS / Rider
+.vs/
+.idea/
+*.user
+
+# macOS
+.DS_Store
